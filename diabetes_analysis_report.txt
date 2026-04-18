@@ -1,0 +1,77 @@
+PIMA INDIANS DIABETES ANALYSIS REPORT
+============================================================
+
+1. DATASET INFORMATION
+----------------------------------------
+Total Patients: 768
+Columns: ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age', 'Outcome', 'BMI_Glucose_Index', 'Insulin_Glucose_Ratio', 'Age_Risk_Level', 'High_Risk']
+
+2. STATISTICAL SUMMARY
+----------------------------------------
+          Glucose         BMI         Age     Insulin
+count  768.000000  768.000000  768.000000  768.000000
+mean   121.656250   32.450911   33.240885   94.652344
+std     30.438286    6.875366   11.760232  105.547598
+min     44.000000   18.200000   21.000000   14.000000
+25%     99.750000   27.500000   24.000000   30.500000
+50%    117.000000   32.000000   29.000000   31.250000
+75%    140.250000   36.600000   41.000000  127.250000
+max    199.000000   67.100000   81.000000  846.000000
+
+3. MEAN VALUES
+----------------------------------------
+Glucose: 121.66
+BMI: 32.45
+Age: 33.24
+Insulin: 94.65
+
+4. MIN & MAX VALUES
+----------------------------------------
+Glucose → Min: 44.0 | Max: 199.0
+BMI → Min: 18.2 | Max: 67.1
+Age → Min: 21 | Max: 81
+Insulin → Min: 14.0 | Max: 846.0
+
+5. MEDIAN VALUES
+----------------------------------------
+Glucose: 117.00
+BMI: 32.00
+Age: 29.00
+Insulin: 31.25
+
+6. HIGH RISK ANALYSIS
+----------------------------------------
+Total High Risk Patients: 545
+Percentage High Risk: 70.96%
+
+High Risk Diabetic: 241
+High Risk Non-Diabetic: 304
+
+7. OUTCOME ANALYSIS
+----------------------------------------
+Diabetic Patients: 268
+Non-Diabetic Patients: 500
+
+8. CORRELATION INSIGHTS
+----------------------------------------
+          Glucose       BMI       Age   Insulin   Outcome
+Glucose  1.000000  0.231400  0.266909  0.357573  0.492782
+BMI      0.231400  1.000000  0.025744  0.189022  0.312249
+Age      0.266909  0.025744  1.000000 -0.015413  0.238356
+Insulin  0.357573  0.189022 -0.015413  1.000000  0.148457
+Outcome  0.492782  0.312249  0.238356  0.148457  1.000000
+
+9. KEY OBSERVATIONS
+----------------------------------------
+Higher glucose levels strongly relate to diabetes.
+BMI above 30 significantly increases risk.
+Age above 50 shows higher diabetes probability.
+Insulin values vary widely among patients.
+
+10. CONCLUSION
+----------------------------------------
+Glucose, BMI, and Age are the most important indicators of diabetes risk.
+High-risk patients are more likely to be diabetic.
+Early detection using these features can help prevent complications.
+
+Report Generated Successfully.
